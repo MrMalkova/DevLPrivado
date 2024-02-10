@@ -1,11 +1,11 @@
 {
-    "name": "fefe_du_973-launcher",
+    "name": "Makova-Launcher",
     "preductname": "Dev Launcher",
-    "version": "1.3.8",
-    "description": "Launcher minecraft custom pour le serveur minecraft Fefe_du_973 avec modpack (premium + crack)",
+    "version": "1.0.1",
+    "description": "Launcher Minecraft Oficial MalkovaCraft 3",
     "main": "src/app.js",
-    "author": "Autheur et créateur principal : Luuxis - Fork : Fefe_du_973",
-    "url": "https://fefe-du-973.fr/launcher_backend",
+    "author": "ElMagoRenato",
+    "url": "http://158.179.219.58/archivos/",
     "engines": {
         "node": "16.x.x"
     },

@@ -17,9 +17,9 @@ class Splash {
 
     async startAnimation() {
         let splashes = [
-            { "message": "Salut ! 👋", "author": "Fefe_du_973" },
-            { "message": "Salut je suis du code. 👨‍💻", "author": "Fefe_du_973" },
-            { "message": "Visite mon site pour + d'infos 🌐", "author": "Fefe_du_973" }
+            { "message": "MalkovaCraft 3 Launcher", "author": "ElMagoRenato" },
+            { "message": "El Launcher Está Cargando...", "author": "ElMagoRenato" },
+            { "message": "Abriendo El Launcher", "author": "ElMagoRenato" }
         ];
         let splash = splashes[Math.floor(Math.random() * splashes.length)];
         this.splashMessage.textContent = splash.message;
@@ -49,11 +49,11 @@ class Splash {
     }
 
     async checkUpdate() {
-        this.setStatus(`Recherche de mise à jour... 🔄️`);
+        this.setStatus(`Buscando Actualizaciones...`);
         ipcRenderer.send('update-app');
 
         ipcRenderer.on('updateAvailable', () => {
-            this.setStatus(`Mise à jour disponible ! ✅`);
+            this.setStatus(`¡Actualización Disponible!`);
             this.toggleProgress();
         })
 
@@ -68,7 +68,7 @@ class Splash {
 
 
     startLauncher() {
-        this.setStatus(`Démarrage du launcher ⏳`);
+        this.setStatus(`Iniciando el Launcher`);
         ipcRenderer.send('main-window-open');
         ipcRenderer.send('update-window-close');
     }
