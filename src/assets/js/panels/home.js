@@ -256,7 +256,7 @@ class Home {
             this.openlink('https://twitter.com');
         })
         document.querySelector('.Github').addEventListener('click', () => {
-            this.openlink('https://github.com');
+            this.openlink('https://github.com/ElMagoRenato/DevLauncher');
         })
         document.querySelector('.Youtube').addEventListener('click', () => {
             this.openlink('https://youtube.com');
