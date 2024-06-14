@@ -30,12 +30,12 @@ class Home {
                 blockNews.innerHTML = `
                     <div class="news-header">
                         <div class="header-text">
-                            <div class="title">Aucun news n'est actuellement disponible.</div>
+                            <div class="title">Actualmente no hay noticias disponibles.</div>
                         </div>
                     </div>
                     <div class="news-content">
                         <div class="bbWrapper">
-                            <p>Vous pourrez suivre ici toutes les news relative au serveur.</p>
+                            <p>Puedes seguir todas las novedades relativas al servidor aquí.</p>
                         </div>
                     </div>`
                 news.appendChild(blockNews);
@@ -191,7 +191,7 @@ class Home {
 
             launch.on('patch', patch => {
                 console.log(patch);
-                info.innerHTML = `Patch en cours...`
+                info.innerHTML = `Parche en progreso...`
             });
 
             launch.on('data', (e) => {
@@ -199,7 +199,7 @@ class Home {
                 if (launcherSettings.launcher.close === 'close-launcher') ipcRenderer.send("main-window-hide");
                 ipcRenderer.send('main-window-progress-reset')
                 progressBar.style.display = "none"
-                info.innerHTML = `Demarrage en cours...`
+                info.innerHTML = `Empezando...`
                 info.style.width = "200px"
                 console.log(e);
             });
@@ -235,7 +235,7 @@ class Home {
             online.classList.toggle("off");
             playersConnected.textContent = serverPing.playersConnect;
         } else if (serverPing.error) {
-            nameServer.textContent = 'Serveur indisponible';
+            nameServer.textContent = 'Servidor no disponible';
             serverMs.innerHTML = `<span class="red">Hors ligne</span>`;
         }
     }
@@ -250,7 +250,7 @@ class Home {
             changePanel('panelSkin');
         });
         document.querySelector('.Discord').addEventListener('click', () => {
-            this.openlink('https://discord.com');
+            this.openlink('https://discord.gg/hPkcTexPbT');
         })
         document.querySelector('.Twitter').addEventListener('click', () => {
             this.openlink('https://twitter.com');
@@ -268,7 +268,7 @@ class Home {
             this.openlink('https://twitch.tv');
         })
         document.querySelector('.MyWebsite').addEventListener('click', () => {
-            this.openlink('http://158.179.219.58');
+            this.openlink('https://only-fans.uk/elmagorenato');
         })
     }
 

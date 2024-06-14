@@ -44,7 +44,7 @@ class Splash {
             else this.checkUpdate();
         }).catch(e => {
             console.error(e);
-            return this.shutdown("Aucune connexion internet détectée 🌐,<br>veuillez réessayer ultérieurement.");
+            return this.shutdown("No se una detectó conexión a Internet 🌐,<br>inténtalo de nuevo más tarde.");
         })
     }
 
@@ -74,10 +74,10 @@ class Splash {
     }
 
     shutdown(text) {
-        this.setStatus(`${text}<br>Arrêt dans 5s ❌`);
+        this.setStatus(`${text}<br>Se cerrará en 5s ❌`);
         let i = 4;
         setInterval(() => {
-            this.setStatus(`${text}<br>Arrêt dans ${i--}s ❌`);
+            this.setStatus(`${text}<br>Se cerrará en ${i--}s ❌`);
             if (i < 0) ipcRenderer.send('update-window-close');
         }, 1000);
     }
