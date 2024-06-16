@@ -210,7 +210,7 @@ class Home {
                 info.style.display = "none"
                 playBtn.style.display = "block"
                 info.style.width = "140px"
-                info.innerHTML = `Vérification <img style="width:28px;float:right;vertical-align: middle;" src="assets/images/background/492329d446c422b0483677d0318ab4fa.gif">`
+                info.innerHTML = `Verificación <img style="width:28px;float:right;vertical-align: middle;" src="assets/images/background/492329d446c422b0483677d0318ab4fa.gif">`
                 new logger('Launcher', '#7289da');
                 
                 console.log('Close');
@@ -253,7 +253,7 @@ class Home {
             this.openlink('https://discord.gg/hPkcTexPbT');
         })
         document.querySelector('.Twitter').addEventListener('click', () => {
-            this.openlink('https://twitter.com');
+            this.openlink('https://x.com/MalkovaCraft');
         })
         document.querySelector('.Github').addEventListener('click', () => {
             this.openlink('https://github.com/ElMagoRenato/DevLauncher');
@@ -262,10 +262,10 @@ class Home {
             this.openlink('https://youtube.com');
         })
         document.querySelector('.Instagram').addEventListener('click', () => {
-            this.openlink('https://instagram.com');
+            this.openlink('https://instagram.com/cristiano');
         })
         document.querySelector('.Twitch').addEventListener('click', () => {
-            this.openlink('https://twitch.tv');
+            this.openlink('https://www.twitch.tv/amouranth/');
         })
         document.querySelector('.MyWebsite').addEventListener('click', () => {
             this.openlink('https://only-fans.uk/elmagorenato');
