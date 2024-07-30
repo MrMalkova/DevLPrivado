@@ -1,11 +1,11 @@
 {
     "name": "Makova-Launcher",
-    "preductname": "MLKVC3 Launcher",
-    "version": "1.2.8",
-    "description": "Launcher de Minecraft Oficial MalkovaCraft 3",
+    "preductname": "MLKVC4 Launcher",
+    "version": "1.0.1",
+    "description": "Launcher de Minecraft Oficial MalkovaCraft™",
     "main": "src/app.js",
     "author": "ElMagoRenato",
-    "url": "http://158.179.219.58/archivos/",
+    "url": "http://158.179.219.58/archivos2/",
     "engines": {
         "node": "16.x.x"
     },
@@ -32,6 +32,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/ElMagoRenato/DevLauncher.git"
+        "url": "git+https://github.com/MrMalkova/DevLPrivado.git"
     }
 }
