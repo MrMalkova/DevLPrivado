@@ -17,7 +17,7 @@ class Splash {
 
     async startAnimation() {
         let splashes = [
-            { "message": "MalkovaCraft 4 Launcher", "author": "ElMagoRenato" },
+            { "message": "MalkovaCraft 5 Launcher", "author": "ElMagoRenato" },
             { "message": "El Launcher Está Cargando...", "author": "ElMagoRenato" },
             { "message": "Abriendo El Launcher", "author": "ElMagoRenato" }
         ];
