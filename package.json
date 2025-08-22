@@ -1,7 +1,7 @@
 {
     "name": "Malkova-Launcher",
     "preductname": "MLKVC4 Launcher",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "Launcher de Minecraft Oficial MalkovaCraft™",
     "main": "src/app.js",
     "author": "ElMagoRenato",
